@@ -1,4 +1,4 @@
-.projects-container {
+.projects-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -6,21 +6,17 @@
   margin: auto;
   padding-top: 10px;
   padding-bottom: 50px;
-  width: 85%;
   flex-wrap: wrap;
 }
-
-@media screen and (min-width: 768px) {
-  .projects-container {
-    justify-content: center;
-    padding-top: 50px;
-  }
+.projects-container {
+  color: white;
+  background-color: black;
+  min-height: 100vh;
+  padding-top: 40px;
 }
-
-.project-section {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  box-shadow: 0px 1px 7px 0px #7e858e29;
-  margin: 15px;
+.projects-heading {
+  text-align: center;
+  font-size: 27px;
+  font-family: "Lucida Sans";
+  text-decoration: underline;
 }

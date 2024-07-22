@@ -6,8 +6,9 @@
   margin: auto;
   padding-top: 10px;
   padding-bottom: 50px;
-  width: 90%;
-  max-width: 1110px;
+  width: 80%;
+  color: white;
+  min-height: 90vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,6 +17,9 @@
     justify-content: space-between;
     padding-top: 50px;
   }
+}
+.home-main-container {
+  background-color: black;
 }
 
 .home-content {
@@ -53,14 +57,17 @@
     display: none;
   }
 }
-
+.contact-icon {
+  margin-right: 20px;
+  color: white;
+}
 .home-heading {
   font-family: "Roboto";
   font-weight: bold;
   margin-top: 0px;
   font-size: 36px;
-  color: black;
   text-align: center;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,38 +80,21 @@
 .home-description {
   font-family: "Roboto";
   margin-top: 36px;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 28px;
-  color: black;
+
   margin-bottom: 0;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .home-description {
-    font-size: 20px;
+    font-size: 26px;
     margin-top: 0;
     text-align: left;
+    margin-top: 20px;
   }
 }
-
-.shop-now-button {
-  width: 60%;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Roboto";
-  color: white;
-  border: none;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-radius: 6px;
-  background-color: black;
+.icons-container {
   margin-top: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .shop-now-button {
-    width: 150px;
-    font-size: 16px;
-  }
 }
