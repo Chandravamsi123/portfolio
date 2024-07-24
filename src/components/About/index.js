@@ -5,6 +5,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { DiNodejs } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { RiReactjsFill } from "react-icons/ri";
+import { SiSqlite } from "react-icons/si";
 import "./index.css";
 const About = () => (
   <div className="about-container">
@@ -36,6 +37,9 @@ const About = () => (
         <div className="skills">
           <div className="skill">
             <FaPython size={80} />
+          </div>
+          <div className="skill">
+            <SiSqlite size={80} />
           </div>
           <div className="skill">
             <RiReactjsFill size={80} />
